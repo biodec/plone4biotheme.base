@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone4biotheme.base">
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Basic Plone4Bio Theme"
+      directory="profiles/default"
+      description='Extension profile for the "Basic Plone4Bio Theme" Plone theme.'
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>

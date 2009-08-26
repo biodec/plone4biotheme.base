@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Basic Plone4Bio Theme">
+
+ <object name="plone4biotheme_base_custom_images"
+    meta_type="Filesystem Directory View"
+    directory="plone4biotheme.base:skins/plone4biotheme_base_custom_images"/>
+ <object name="plone4biotheme_base_custom_templates"
+    meta_type="Filesystem Directory View"
+    directory="plone4biotheme.base:skins/plone4biotheme_base_custom_templates"/>
+ <object name="plone4biotheme_base_styles"
+    meta_type="Filesystem Directory View"
+    directory="plone4biotheme.base:skins/plone4biotheme_base_styles"/>
+
+ <skin-path name="Basic Plone4Bio Theme" based-on="Plone Default">
+  <layer name="plone4biotheme_base_custom_images"
+     insert-after="custom"/>
+  <layer name="plone4biotheme_base_custom_templates"
+     insert-after="plone4biotheme_base_custom_images"/>
+  <layer name="plone4biotheme_base_styles"
+     insert-after="plone4biotheme_base_custom_templates"/>
+ </skin-path>
+
+</object>
