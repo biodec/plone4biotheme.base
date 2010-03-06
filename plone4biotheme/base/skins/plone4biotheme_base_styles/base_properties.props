@@ -2,7 +2,7 @@ title:string=plone4bio's color, font, logo and border defaults
 
 plone_skin:string=plone4bio
 
-logoName:string=logo-190x65.png
+logoName:string=plone4bio-logo.png
 
 itemColor:string=#0380aa
 
