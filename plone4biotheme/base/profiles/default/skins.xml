@@ -12,7 +12,7 @@
     meta_type="Filesystem Directory View"
     directory="plone4biotheme.base:skins/plone4biotheme_base_styles"/>
 
- <skin-path name="Basic Plone4Bio Theme" based-on="Plone Default">
+ <skin-path name="Basic Plone4Bio Theme" based-on="Sunburst Theme">
   <layer name="plone4biotheme_base_custom_images"
      insert-after="custom"/>
   <layer name="plone4biotheme_base_custom_templates"
